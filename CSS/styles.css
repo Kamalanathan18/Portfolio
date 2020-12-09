@@ -9,6 +9,7 @@ header,
       -o-background-size: cover;
       background-size: cover;
       height:760px;
+      width:100%;
     }
     #A1{
       padding-top: 20px;
