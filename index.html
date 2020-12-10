@@ -159,39 +159,6 @@
   </div>
 </section><br><br>
 
-<section class="bg-danger text-center p-5 text-white">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mx-auto">
-          <h3 class="display-4 mb-4">Follow me on</h3>
-          <div class="d-flex justify-content-between">
-            <div>
-              <a href="http://www.facebook.com/kamala.nathan.94801" target="_blank">
-                <i class="fa fa-facebook fa-4x text-white bg-gray-light"></i>
-              </a>
-            </div>
-            <div>
-              <a href="http://www.twitter.com/Kamalanathan181" target="_blank">
-                <i class="fa fa-twitter fa-4x text-white bg-gray-light"></i>
-              </a>
-            </div>
-            <div>
-              <a href="http://www.instagram.com/kamalanathan18.kn" target="_blank">
-                <i class="fa fa-instagram fa-4x text-white bg-gray-light"></i>
-              </a>
-            </div>
-            <div>
-              <a href="http://www.linkedin.com/in/kamalanathan-p-1601bb182" target="_blank">
-                <i class="fa fa-linkedin fa-4x text-white bg-gray-light"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
 <!---------------------------------------------------------------- Interests ------------------------------------------------------------------->
 
 <section id="Interests" class="text-center bg-dark text-white">
@@ -220,64 +187,107 @@
   </div>
 </section>
 
+<!----------------------------------- Social media  ----------------------------------------------->
+
+<section class="bg-danger text-center p-5 text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <h3 class="display-4 mb-4">Follow me on</h3>
+        <div class="d-flex justify-content-between">
+          <div>
+            <a href="http://www.facebook.com/kamala.nathan.94801" target="_blank">
+              <i class="fa fa-facebook fa-4x text-white bg-gray-light"></i>
+            </a>
+          </div>
+          <div>
+            <a href="http://www.twitter.com/Kamalanathan181" target="_blank">
+              <i class="fa fa-twitter fa-4x text-white bg-gray-light"></i>
+            </a>
+          </div>
+          <div>
+            <a href="http://www.instagram.com/kamalanathan18.kn" target="_blank">
+              <i class="fa fa-instagram fa-4x text-white bg-gray-light"></i>
+            </a>
+          </div>
+          <div>
+            <a href="http://www.linkedin.com/in/kamalanathan-p-1601bb182" target="_blank">
+              <i class="fa fa-linkedin fa-4x text-white bg-gray-light"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!----------------------------------------------------------------- Contact --------------------------------------------------------------------------->
 
-<div class="container-fluid text-center" id="Contact"><br><br>
-  <h2 class="h1-responsive font-weight-bold my-4">CONTACT ME</h2>
-  <img src="img/lines.svg" class="img-lines" alt="lines">
-  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly! I will come back to you within a matter of hours to help you.</p>
-  <div class="row">
-    <div class="col-md-3"></div>
-    <div class="col-md-6 mb-md-0 mb-5">
-      <form id="contact-form" name="contact-form" action="js/mail.php" method="POST">
-        <div class="row text-left">
-          <div class="col-md-6">
-            <div class="md-form mb-0">
-              <label for="name" class="font-weight-bold">Your name</label>
-              <input type="text" id="name" name="name" placeholder="Enter your Name" class="form-control">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="md-form mb-0">
-              <label for="email" class="font-weight-bold">Your email</label>
-              <input type="text" id="email" name="email" placeholder="Enter your mail-id" class="form-control">
-            </div>
-         </div>
-        </div>
-        <div class="row text-left">
-          <div class="col-md-12">
-            <div class="md-form mb-0">
-              <label for="subject" class="font-weight-bold">Subject</label>
-              <input type="text" id="subject" name="subject" placeholder="Subject" class="form-control">
-            </div>
-          </div>
-        </div>
-        <div class="row text-left">
-          <div class="col-md-12">
-            <div class="md-form">
-              <label for="message" class="font-weight-bold">Your message</label>
-              <textarea type="text" id="message" name="message" rows="2" placeholder="Comments" class="form-control md-textarea"></textarea>
-            </div>
-          </div>
-        </div>
-      </form><br>
-      <div class="text-center text-md-left">
-        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a><br><br><br>
+<section class="resume-section p-4 p-lg-5 text-center bg-dark text-white" id="Contact">
+  <div class="my-auto">
+    <h2 class="mb-4"> Contact Information </h2>
+    <img src="img/lines.svg" class="img-lines" alt="lines">
+
+    <ul class="fa-ul mb-4 ml-0">
+      <li id="mail-address">
+          <i class="fa fa-envelope-open mr-2 contact-icons"></i>kamalanathan1811@gmail.com</a>
+      </li>
+      <li>
+        <i class="fa fa-map-marker mr-2 contact-icons"></i>Tamil Nadu, India
+      </li>
+    </ul>
+
+    <p>or Leave your message here and I will be back to you as soon as possible</p>
+    
+
+    <form id="contactForm" class="contact-form d-flex flex-column align-items-center">
+      <div class="alert">Your message has been sent</div>
+      <div class="form-group w-75">
+        <input
+          type="name"
+          class="form-control"
+          placeholder="Name"
+          name="name"
+          id="name"
+          required/>
       </div>
-    </div> 
-    <div class="col-md-3"></div>
+      <div class="form-group w-75">
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Email"
+          name="email"
+          id="email"
+          required/>
+      </div>
+
+      <div class="form-group w-75">
+        <textarea
+          class="form-control"
+          type="text"
+          placeholder="Message"
+          rows="5"
+          name="message"
+          id="message"
+          required>
+        </textarea>
+      </div>
+
+      <button type="submit" class="btn btn-submit btn-info w-75">Submit</button>
+    </form>
   </div>
-</div>
+</section>
+
 <!------------------------------------------------------------------------ Footer ------------------------------------------------------------------>
 
 <footer class="container-fluid page-footer bg-dark">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
       <div class="footer-copyright text-center text-white py-3">© 2020
         <a> Kamalanathan </a>
       </div>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-6">
       <ul class="footer-icon-social mb-0 mt-3 p-0 text-center">
         <li class="list-inline-item">
           <a href="http://www.facebook.com/kamala.nathan.94801" target="_blank" class="text-white">
@@ -299,9 +309,6 @@
             <i class="fa fa-linkedin"></i>
           </a>
         </li>
-        <li class="list-inline-item">
-          <a class="text-white" style="text-decoration: none;">|&nbsp;&nbsp;Email: kamalanathan1811@gmail.com</a>
-        </li>
       </ul>
     </div>
     </div>
@@ -312,6 +319,8 @@
   <div class='scroll icon'><i class="fa fa-angle-up" aria-hidden="true"></i></div>
 </div>
 
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase.js"></script>
+<script src="js/form.js"></script>
 
 </body>
 </html>
