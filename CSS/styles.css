@@ -3,13 +3,16 @@ header,
       height: 100%;
     }
     #Home {
-      background: url("../img/bg-img.jpg")no-repeat center center fixed;
+      background: url("../img/bg-img.jpg")no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
       height:760px;
       width:100%;
+    }
+    html{
+      scroll-behavior: smooth;
     }
     #A1{
       padding-top: 20px;
@@ -37,4 +40,7 @@ header,
     color:#fff;
     margin-bottom:10px;
     display:none;
+  }
+  .F1:hover{
+    color: #0066ff;
   }
